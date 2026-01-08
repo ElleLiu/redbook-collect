@@ -20,6 +20,7 @@
 ### 2. 配置飞书多维表格
 
 1. 在飞书多维表格中创建一个新表格，包含以下字段：
+   - note_id（文本）
    - url（文本）
    - 标题（文本）
    - 作者（文本）
@@ -30,7 +31,8 @@
    - 评论（数字）
    - 批注（多行文本）
    - 关键词（文本）
-   - 也可以直接使用[此模板](https://bytesmore.feishu.cn/base/RQ4ibDZEpaG3ZIsfcMCcrJYZn0b)
+   - 发布日期（文本）
+   - 也可以直接使用[此模板](https://ai.feishu.cn/base/Krhkb2XvTa2D1asGsZTcxpdunUf)
 2. 创建飞书开放平台应用并获取权限
    - 创建[飞书开放平台应用](https://open.feishu.cn/app)
    - 获取应用的 App ID 和 App Secret
@@ -38,9 +40,9 @@
 
 ### 3. 配置插件
 
-1. 点击 Chrome 工具栏中的插件图标，打开侧边栏
+1. 点击 Chrome/Edge 工具栏中的插件图标，打开侧边栏
 2. 填写配置信息：
-   - 表格 URL：复制飞书多维表格的完整 URL
+   - 表格 URL：复制飞书多维表格的完整 URL, URL注意格式：https://ai.feishu.cn/base/xxxxxx?table=xxxxx（存储在多维表格空间非知识库空间）
    - app_token：填写飞书应用的 App ID
    - app_secret：填写飞书应用的 App Secret
 3. 点击"保存配置"
@@ -48,7 +50,7 @@
 ### 4. 采集笔记
 
 1. 打开小红书笔记页面
-2. 点击 Chrome 工具栏中的插件图标，打开侧边栏
+2. 点击 Chrome/Edge 工具栏中的插件图标，打开侧边栏
 3. 可选：添加批注和关键词
 4. 点击"采集笔记"按钮
 5. 数据将自动提取并保存到飞书多维表格中
@@ -66,4 +68,8 @@
 
 ## 开发者信息
 
-- GitHub 仓库：[https://github.com/comeonzhj/redbook-collect](https://github.com/comeonzhj/redbook-collect)
+- GitHub 仓库：[https://github.com/ElleLiu/redbook-collect](https://github.com/ElleLiu/redbook-collect)
+
+## 项目参考
+
+- GitHub 仓库 ：[https://github.com/comeonzhj/redbook-collect](https://github.com/comeonzhj/redbook-collect)
