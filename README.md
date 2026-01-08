@@ -1,6 +1,6 @@
 # 小红书笔记采集助手
 
-一款 Chrome 扩展插件，用于一键提取小红书笔记信息并保存到飞书多维表格中。
+一款 Chrome/Edge 扩展插件，用于一键提取小红书笔记信息并保存到飞书多维表格中。
 
 ## 功能特点
 
@@ -72,4 +72,4 @@
 
 ## 项目参考
 
-- GitHub 仓库 ：[https://github.com/comeonzhj/redbook-collect](https://github.com/comeonzhj/redbook-collect)
+- [https://github.com/comeonzhj/redbook-collect](https://github.com/comeonzhj/redbook-collect)
